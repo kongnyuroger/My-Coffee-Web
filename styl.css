@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px 10px 50px;
+    color: rgb(109, 63, 63);
+    margin-bottom: 1px;
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 0, 0.973);
+    width: 100%;
+    z-index: 3;
+    
+}
+header img
+{
+    width: 40px;
+    height: 40px;
+}
+header ul
+{
+    display: flex;
+    list-style: none;
+}
+header ul li
+{
+    margin: 0 15px;
+}
+header ul li a
+{
+    color: white;
+    text-decoration: none;
+
+}
+header .icons
+{
+    display: flex;
+}
+header .icons .fas
+{
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+}
+section
+{
+    padding: 0 80px;
+}
+.sec-1
+{
+    height: 100vh;
+    background: url(images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    color: white;
+    padding: 0 80px;
+    
+}
+.sec-1 .container
+{
+    position: relative;
+    top: 30%;
+    width: 50%;
+    
+}
+.sec-1 .container h1
+{
+    background: rgba(0, 0, 0, 0.479);
+    display: inline;
+    font-size: 3rem;
+    border: none
+}
+.sec-1 .container p
+{
+    background: rgba(0, 0, 0, 0.479);
+    
+}
+ button
+{
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 7px;
+    background: #de481ab9;
+    cursor: pointer;
+}
+.input-icons
+{
+    position: absolute;
+    right: 130px;
+    top: 80px;
+    padding: 10px 15px;
+    
+}
+.input-icons i
+{
+    position: absolute;
+    font-size: 25px;
+    color: #111;
+    margin: 7px 7px;
+    display: none;
+    
+}
+.input-icons i.active
+{
+    display: block;
+}
+.input-icons
+{
+    position: fixed;
+}
+.input-field
+{
+    width: 300px;
+    height: 40px;
+    width: 1px;
+    transition: 1s;
+    
+}
+.input-field.active
+{
+    width: 300px;
+}
+.sec-1 .container-2
+{
+    color: black;
+    position: absolute;
+    right: 60px;
+    top: 80px;
+    padding: 15px 15px;
+    background-color: white;
+    width: 1px;
+    height: 1px;
+    display: none;
+    transition: 1s;
+    
+}
+.sec-1 .container-2.active
+{
+   width: 400px;
+   height: auto;
+   display: block;
+   transition: 1s;
+}
+.sec-1 .container-2 .content
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.sec-1 .container-2 .content p
+{
+    opacity: 0.5;
+}
+.sec-1 .container-2 .content i
+{
+    font-size: 30px;
+}
+.sec-1 .container-2 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+}
+.title
+{
+    text-align: center;
+    margin: 0x 0px 40px 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.title span
+{
+    color: #eb4b15;
+}
+.sec-2
+{
+    background: rgb(0, 0, 0);
+    color: white;
+    padding-bottom: 80px;
+}
+.sec-2 .content
+{
+    display: flex;
+}
+.sec-2 .img-box,
+.sec-2 .text-box
+{
+    width: 50%;
+    height: 60vh;
+}
+.sec-2 .img-box
+{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(images/img5.jpg);
+    background-size: cover;
+}
+.sec-2 .text-box
+{
+    padding: 50px 15px 50px 15px;
+    background: #272424;
+}
+.sec-2 .text-box h1
+{
+    margin-bottom: 24px;
+}
+.sec-2 .text-box p
+{
+    margin-bottom: 20px;
+}
+.sec-2 button
+{
+    transition: 0.5s;
+}
+.sec-2 button:hover
+{
+    font-size: 18px;
+    
+}
